@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    justify-content: space-between;
     overflow-y: auto;
     z-index: 1000;
 }
