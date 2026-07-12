@@ -1,6 +1,4 @@
-// ===============================
-// Scroll To Top Button
-// ===============================
+
 const scrollTopBtn = document.getElementById("scrolltopbtn");
 
 window.addEventListener("scroll", () => {
@@ -30,7 +28,7 @@ const navLinks = document.querySelectorAll(".head-links a");
 function toggleMenu() {
 
     // Only work on mobile and tablet
-    if (window.innerWidth > 834) return;
+    if (window.innerWidth > 950) return;
 
     menu.classList.toggle("active");
 
@@ -51,7 +49,7 @@ function closeMenu() {
 document.addEventListener("click", function (e) {
 
     if (
-        window.innerWidth <= 834 &&
+        window.innerWidth <= 950 &&
         !menu.contains(e.target) &&
         !menuBtn.contains(e.target)
     ) {
@@ -65,7 +63,7 @@ navLinks.forEach(link => {
 
     link.addEventListener("click", function () {
 
-        if (window.innerWidth <= 834) {
+        if (window.innerWidth <= 950) {
             closeMenu();
         }
 
@@ -76,7 +74,7 @@ navLinks.forEach(link => {
 // Close menu automatically when resizing to desktop
 window.addEventListener("resize", () => {
 
-    if (window.innerWidth > 834) {
+    if (window.innerWidth > 950) {
         closeMenu();
     }
 
@@ -93,13 +91,17 @@ window.addEventListener("load", function () {
 
 const modal = document.getElementById("loginModal");
 const openBtn = document.getElementById("openModal");
+const openBtns = document.getElementById("openModals");
 
 // Open modal
 openBtn.addEventListener("click", function(e){
     e.preventDefault();
     modal.classList.add("show");
 });
-
+openBtns.addEventListener("click", function(e){
+    e.preventDefault();
+    modal.classList.add("show");
+});
 // Close when clicking outside the white modal
 modal.addEventListener("click", function(e){
 
