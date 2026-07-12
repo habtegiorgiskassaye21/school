@@ -932,10 +932,11 @@ body{
 
     .main-menu{
         height: 59%;
-        margin-top: 10px;
+        
     }
     .system{
         height: 11;
+        margin-top: 20px;
     }
     .left-div-footer{
         height: 15%;
