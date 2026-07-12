@@ -936,6 +936,14 @@ body{
     .system{
         height: 11%;
     }
+    .system{
+        height: 11%;
+        margin-top: 3vh;
+        gap: 0;
+    }
+    #system-link{
+        margin-top: 7%;
+    }
     .left-div-footer{
         height: 15%;
     }
