@@ -933,11 +933,9 @@ body{
     .main-menu{
         height: 59%;
     }
+
     .system{
-        height: 11%;
-    }
-    .system{
-        height: 11%;
+        height: 15%;
         margin-top: 3vh;
         gap: 0;
     }
@@ -945,7 +943,7 @@ body{
         margin-top: 0;
     }
     .left-div-footer{
-        height: 15%;
+        height: 11%;
     }
     .right-div{
         width: 100%;
