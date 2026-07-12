@@ -924,6 +924,8 @@ body{
 
     .left-div-footer{
         height: 10%;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
     .right-div{
         width: 100%;
