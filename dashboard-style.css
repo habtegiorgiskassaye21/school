@@ -1021,6 +1021,7 @@ body{
 
 @media(max-width: 390px){
     .left-div{
+        position: fixed;
         height: 100%;
         font-size: medium;
     }
