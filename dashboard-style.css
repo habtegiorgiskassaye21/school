@@ -914,7 +914,7 @@ body{
         left: 0;
     }
     .left-div-header{
-        height: 10%;
+        height: 15%;
         text-align: left;
         justify-content: left;
         padding-left: 5%;
@@ -931,11 +931,10 @@ body{
     }
 
     .main-menu{
-        height: 64%;
+        height: 59%;
     }
     .system{
         height: 11;
-        margin-top: 0;
     }
     .left-div-footer{
         height: 15%;
