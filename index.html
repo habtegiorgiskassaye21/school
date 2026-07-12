@@ -48,7 +48,7 @@
         <h1>Green School Management System</h1>
         <p >Automate Attendance,Grading,Scheduling and Communication</p>
         <div class="title-buttons">
-            <a href="dashboard.html" class="get">Get Started →</a>
+            <a href="#" id="openModals" class="get">Get Started →</a>
             <a href="../Coffee_Website/index.html" class="learn">Learn More</a>
         </div>
     </div>
@@ -237,18 +237,18 @@
             <p>Login to your school account</p>
         </div>
 
-        <form>
+        <form id="login-form">
 
             <label>Username</label>
             <div class="input-box">
                 <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Enter your email or username">
+                <input type="text" placeholder="Enter your email or username" required>
             </div>
 
             <label>Password</label>
             <div class="input-box">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Enter your password">
+                <input type="password" placeholder="Enter your password" required>
             </div>
 
             <div class="options">
@@ -260,7 +260,7 @@
                 <a href="#">Reset Password?</a>
             </div>
 
-            <button type="submit">Login</button>
+            <button  type="submit">Login</button>
 
             <p class="register">
                 Don't have an account?
@@ -320,6 +320,12 @@
     <button id="scrolltopbtn" title="Go to top">
         <i class="fas fa-arrow-up"></i>
     </button>
+    <script>
+        document.getElementById("login-form").addEventListener("submit", function(e){
+            e.preventDefault();
+            window.location.href="dashboard.html";
+        });
+    </script>
 <script src="javascript.js"></script>
 </body>
 </html>
