@@ -934,7 +934,11 @@ body{
         height: 64%;
     }
     .system{
+        height: 11;
         margin-top: 0;
+    }
+    .left-div-footer{
+        height: 15%;
     }
     .right-div{
         width: 100%;
