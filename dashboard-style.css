@@ -5,11 +5,7 @@ body{
     padding: 0;
 
 }
-body.menu-open{
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-}
+
 .dashboard{
     display:flex;
     width:100%;
