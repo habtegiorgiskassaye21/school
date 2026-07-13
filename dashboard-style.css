@@ -898,7 +898,7 @@ body{
         height: 100dvh;
         transition: left .4s ease;
         z-index: 1000;
-        overscroll-behavior: none;
+        overscroll-behavior: contain;
     }
 
     .left-div.active{
