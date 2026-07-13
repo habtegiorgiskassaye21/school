@@ -899,6 +899,7 @@ body{
         transition: left .4s ease;
         z-index: 1000;
         overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
     }
 
     .left-div.active{
