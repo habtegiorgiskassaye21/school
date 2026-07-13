@@ -3,6 +3,12 @@ const menuBtn = document.getElementById("menu-btn");
 
 function toggleMenu() {
     menu.classList.toggle("active");
+
+    if (menu.classList.contains("active")) {
+        document.body.classList.add("menu-open");
+    } else {
+        document.body.classList.remove("menu-open");
+    }
 }
 
 function closeMenu() {
