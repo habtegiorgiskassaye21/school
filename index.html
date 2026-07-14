@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+    <div class="head1" id="home">
+
+        <div class="title">
+            <h4>🎓 School Management System</h4>
+        </div>
+
+        
+
+        <!-- Navigation Links -->
+        <div class="head-links" id="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#feature">Features</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About Us</a>
+
+            <div class="head-link">
+                <a href="#" id="openModal" class="btns btn-log">
+                    Login
+                </a>
+
+                <a class="btns btn-reg">
+                    Register
+                </a>
+            </div>
+            <!-- Hamburger Icon -->
+
+        </div>
+        <div class="menu-btn" >
+            <button id="menu-btn" onclick="toggleMenu()">
+            &#9776;
+            </button>
+          </div>
+        </div>
+
+    </header>
+    <div class="title-div">
+        <h1>Green School Management System</h1>
+        <p >Automate Attendance,Grading,Scheduling and Communication</p>
+        <div class="title-buttons">
+            <a href="#" id="openModals" class="get">Get Started →</a>
+            <a href="../Coffee_Website/index.html" class="learn">Learn More</a>
+        </div>
+    </div>
+   <section class="section" id="feature">
+        <h3>Features</h3>
+       
+        <div class="cards">
+            <div class="card">
+                <h5>Student Portal</h5>
+                 <p>View grades, attendance, and course materials online.</p>
+        </div>
+        <div class="card">
+            <h5>Admin Control</h5>
+            <p>Full control over system users, reports, and operations.</p>
+        </div>
+        <div class="card">
+            <h5>Analytics</h5>
+             <p>Visual insights for better decision-making.</p>
+        </div>
+        <div class="card">
+            <h5>Student Management</h5>
+             <p>Manage students information,record and profit easily</p>
+        </div>
+        <div class="card">
+            <h5>Attendance Tracking</h5>
+             <p>Automated Attendance Tracking With Report</p>
+        </div>
+        <div class="card">
+            <h5>Grade Management</h5>
+             <p>Create Grades,Manage Exams and performance</p>
+        </div>
+        </div>
+    </section>
+    <section class="user-section">
+        <h3>Powerfull features for modern school</h3>
+        <div class="user-cards">
+            <div class="user-card">
+                <div class="img-card">
+                    <img src="image/image11.jpg" alt="">
+                </div>
+                <div class="text-card">
+                    <h5>Asministrator</h5>
+                    <ul>
+                        <li>Mange entire school operation</li>
+                        <li>View report and analytics</li>
+                        <li>Manage teacher and staff</li>
+                      
+                    </ul>
+                </div>
+        </div>
+        <div class="user-card">
+             <div class="img-card">
+                <img src="image/image12.jpg" alt="">
+                </div>
+                <div class="text-card">
+                   <h5>Teachers</h5>
+                    <ul>
+                        <li>Mange class and students</li>
+                        <li>Track attendance and grade</li>
+                        <li>Communicate with parents</li>
+                        
+                    </ul>
+                </div>
+        </div>
+        <div class="user-card">
+             <div class="img-card">
+                <img src="image/image15.jpg" alt="">
+                </div>
+                <div class="text-card">
+                    <h5>Student</h5>
+                    <ul>
+                        <li>View attendance and grade</li>
+                        <li>Check schedule and exams</li>
+                        <li>Stay updated with notices</li>
+                    </ul>
+                </div>
+        </div>
+        <div class="user-card">
+             <div class="img-card">
+                <img src="image/image14.jpg" alt="">
+                </div>
+                <div class="text-card">
+                   <h5>Parent</h5>
+                   <ul>
+                    <li>Monitor childs performance</li>
+                    <li>View attendance and report</li>
+                    <li>Reviews school notification</li>
+                   </ul>
+                </div>
+        </div>
+        
+        </div>
+    </section>
+
+    <div class="contact-section" id="contact">
+
+    <h3>Contact Us</h3>
+
+    <div class="contact-container">
+
+        <!-- FORM -->
+        <div class="contact-form">
+            <h5>Send us a message</h5>
+
+            <form id="contactForm">
+
+                <input type="text" name="name" placeholder="Full Name" required>
+
+                <input type="email" name="email"  placeholder="Email Address" required>
+
+                <select name="role" >
+                    <option>Select Role</option>
+                    <option>Student</option>
+                    <option>Teacher</option>
+                    <option>Parent</option>
+                    <option>Admin</option>
+                </select>
+
+                <select name="subject" >
+                    <option>Subject</option>
+                    <option>Admission Inquiry</option>
+                    <option>Technical Support</option>
+                    <option>Feedback</option>
+                    <option>Complaint</option>
+                </select>
+
+                <textarea name="message" class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+
+                <button class="btn btn-success w-100">Send Message</button>
+
+            </form>
+            </div>
+
+        <!-- INFO -->
+        <div class="contact-info">
+
+            <h5>Get in touch</h5>
+
+            <p>We are here to help you anytime. Contact us through the following ways.</p>
+
+            <div class="info-item">📞 +251-988-580-336</div>
+            <div class="info-item">📧 habtegiorgis@gmail.com</div>
+            <div class="info-item">📍 Green School, Ethiopia</div>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <div class="about" id="about">
+        <h3>About Us</h3>
+        <div class="about-div">
+            <div class="img-div">
+            <img src="image/image5.png" alt="no image">
+        </div>
+        <div class="text-div">
+            <h2>Making School Management Simple And Smart</h2>
+            
+            <p>Our smart school management system is designed to simplify the administrative
+                    tasks of school and focus more on education. <br>
+                    It helps schools, teachers, students and parents stay connected and informed.</p>
+            
+            <button class="btn btn-outline-success">learn more</button>
+        </div>
+        </div>
+    </div>
+
+
+
+<div class="login-overlay" id="loginModal">
+
+    <div class="login-modal">
+        <span class="close">&times;</span>
+        <div class="login-header">
+            <i class="fas fa-user-graduate"></i>
+            <h2>Welcome Back</h2>
+            <p>Login to your school account</p>
+        </div>
+
+        <form id="login-form">
+
+            <label>Username</label>
+            <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Enter your email or username" required>
+            </div>
+
+            <label>Password</label>
+            <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="options">
+                <label class="remember">
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <a href="#">Reset Password?</a>
+            </div>
+
+            <button  type="submit">Login</button>
+
+            <p class="register">
+                Don't have an account?
+                <a href="#">Register</a>
+            </p>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+    <button id="scrolltopbtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <footer>
+        <div class="footer-divs">
+            <div class="footer-div div1">
+                <h5>🎓 School Managemet System</h5>
+                <p>Smart solutions for smart schools.
+                automate, <br> comunicate and 
+                educate effectively</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-div">
+                <h5>Quick Links</h5>
+                <a href="#home">Home</a><br>
+                <a href="#feature">Features</a><br>
+                <a href="#about">About Us</a><br>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-div parg">
+                <h5>Help and Support</h5>
+                <ul>
+                    <li>FAQ</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+            <div class="footer-div  parg">
+                <h5>Contact Us</h5>
+                <p>📞 +251-988-580-336</p>
+                <p>habtegiorgis@gmail.com</p>
+                <p>123 Education Streat</p>
+                <p>Knowledgy city 1234</p>
+            </div>
+        </div>
+    </footer>
+    <button id="scrolltopbtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script>
+        document.getElementById("login-form").addEventListener("submit", function(e){
+            e.preventDefault();
+            window.location.href="home.html";
+        });
+    </script>
+<script src="javascript.js"></script>
+</body>
+</html>
