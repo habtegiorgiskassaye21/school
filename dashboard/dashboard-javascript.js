@@ -383,7 +383,7 @@ document.getElementById("logout").addEventListener("click", function (e) {
             localStorage.clear();
             sessionStorage.clear();
 
-            window.location.href = "../homepage/index.html";
+            window.location.href = "../index.html";
         }
     });
 });
